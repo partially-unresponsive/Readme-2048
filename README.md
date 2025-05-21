@@ -1,4 +1,4 @@
-# To play to 2048
+# To play to 2048 (Actions unavailable for now)
 
 **Game in progress. This is a public game of 2048. Anyone can play.**
 
