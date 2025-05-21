@@ -25,6 +25,7 @@ def generateGameBoard(grid, score, bestScore):
 
     scoreImage = Image.open(f"Assets/score.png").convert('RGBA')
     message = str(score)
+    # FIXME: ImageDraw.Draw.textsize() is no longer a recognized command. Replace with something from https://pillow.readthedocs.io/en/stable/reference/ImageDraw.html
     draw = ImageDraw.Draw(scoreImage)
     w, h = draw.textsize(message, font=myFont)
     W, H = scoreImage.size

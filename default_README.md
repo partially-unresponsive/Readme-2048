@@ -31,7 +31,7 @@ You can change the theme of the gameboard between dark and light mode editing `c
 
 The current game is always called `Data/Games/current.json`. All games are automatically archived into the `Data/Games/` folder.
 
-## To do
+## TODO:
 - [ ] Remove impossible actions
 - [ ] Do not download Pillow each time 
 - [ ] Prevent from runing twice actions at the same time (https://github.com/marketplace/actions/wait-for-check)
