@@ -89,7 +89,9 @@ def newGame(issue, issueAuthor):
     readme = readme.read()
     readme = readme.split("<!-- 2048GameActions -->", 2)
 
-    readme[1] = "<a href=\"https://github.com/partially-unresponsive/Readme-2048/issues/new?title=2048|slideUp&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideUp.png\"/> </a> <a href=\"https://github.com/partially-unresponsive/Readme-2048/issues/new?title=2048|slideDown&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideDown.png\"/> </a> <a href=\"https://github.com/partially-unresponsive/Readme-2048/issues/new?title=2048|slideLeft&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideLeft.png\"/> </a> <a href=\"https://github.com/partially-unresponsive/Readme-2048/issues/new?title=2048|slideRight&body=Just+push+'Submit+new+issue'.+You+don't+need+to+do+anything+else.\"> <img src=\"Assets/slideRight.png\"/> </a>"
+
+
+    readme[1] = "<a href=\"https://github.com/partially-unresponsive/Readme-2048/issues/new?title=2048|slideUp&body=Justpush\"> <img src=\"Assets/slideUp.png\"/> </a> <a href=\"https://github.com/partially-unresponsive/Readme-2048/issues/new?title=2048|slideDown&body=Justpush\"> <img src=\"Assets/slideDown.png\"/> </a> <a href=\"https://github.com/partially-unresponsive/Readme-2048/issues/new?title=2048|slideLeft&body=Justpush\"> <img src=\"Assets/slideLeft.png\"/> </a> <a href=\"https://github.com/partially-unresponsive/Readme-2048/issues/new?title=2048|slideRight&body=Justpush\"> <img src=\"Assets/slideRight.png\"/> </a>"
 
     with open("README.md", "w", encoding="utf-8") as _readme:
         _readme.write("<!-- 2048GameActions -->".join(readme))
