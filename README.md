@@ -1,8 +1,4 @@
 # To play to 2048 (Actions unavailable for now)
-> [!WARNING]
-> Not working due to deprecated Python functions. 
-> Aiming to fix that, ETA 2027. Stay tuned.
-
 >[!WARNING]
 > Not working due to deprecated Python functions, 
 > and parts of the code are straight up missing.
