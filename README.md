@@ -5,7 +5,7 @@
 **It's your turn, click on a button below the board!**
 
 <!-- 2048GameBoard -->
-<img src="https://github.com/partially-unresponsive/partially-unresponsive/blob/main/Data/gameboard.png" width="500"/>
+<img src="Data/gameboard.png" width="500"/>
 <!-- 2048GameBoard -->
 
 <!-- 2048GameActions -->
