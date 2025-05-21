@@ -1,4 +1,7 @@
 # To play to 2048 (Actions unavailable for now)
+>[!WARNING]
+>Not working due to deprecated Python functions
+>Aiming to fix that, ETA 2027. Stay tuned
 
 **Game in progress. This is a public game of 2048. Anyone can play.**
 
