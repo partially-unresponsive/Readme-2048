@@ -1,5 +1,5 @@
 # To play to 2048 (Actions unavailable for now)
->[!WARNING]
+> [!WARNING]
 > Not working due to deprecated Python functions 
 > Aiming to fix that, ETA 2027. Stay tuned. 
 
